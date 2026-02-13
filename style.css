@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    margin: 20px auto;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2ecc71;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+#change-color-btn:hover {
+    background-color: #27ae60;
+}
+
+#change-color-btn:active {
+    transform: scale(0.98);
+}
+
+
+✔ Ce que fait le CSS :
+
+Centre le contenu
+
+Définit taille fixe de la boîte
+
+Couleur par défaut
+
+Bouton attractif
+
+Effets visuels (hover + transition fluide)
